@@ -4,8 +4,8 @@ public:
         int pos = haystack.find(needle);
         while(pos!=string::npos){
             return pos;
-            pos = haystack.find(needle);
         }
+      pos = haystack.find(needle);
       return -1;
     }
 };
